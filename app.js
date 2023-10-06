@@ -12,4 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
           document.documentElement.style.setProperty("--font-color", "#111344");
         }
       });
+
+      document.getElementById("hatter").addEventListener("click", function (){
+        document.body.style.setProperty("background-image", "url(pics/light_background.png)");
+      });
 });

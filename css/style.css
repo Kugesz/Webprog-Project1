@@ -48,6 +48,8 @@ div.row {
     justify-content: space-between;
 }
 
+
+
 div.row:nth-child(3){
     justify-content: center;
 }
@@ -62,12 +64,33 @@ div.nap {
 
 div.idopont {
     width: 75%;
-    height: 30px;
+    height: 40px;
     margin-bottom: 10px;
     padding: 10px;
     background-color: var(--main-color);
     border-radius: 5px;
     font-weight: 400;
+}
+
+footer {
+  height: 80px;
+  background-color: var(--main-color);
+  margin-top: 15%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  div.row{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div.nap{
+    width: 80%;
+  }
 }
 
 /*EZ A KOD A W3SCHOOLS-ROL VAN https://www.w3schools.com/howto/howto_css_switch.asp*/
